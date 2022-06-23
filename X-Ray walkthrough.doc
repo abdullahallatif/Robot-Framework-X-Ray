@@ -1,0 +1,65 @@
+X Ray is a plugin that allows to plan, design, and execute tests, as well as generate test reports.
+
+
+Benefit of X-ray
+	Centralized test documentation
+
+How to create Test Cases with X-Ray in JIRA
+
+X-ray issue types
+Test
+Precondition
+Test Set
+Create group of test cases (of a module)
+Test Plan
+Test Execution
+Sub Test Execution
+
+Creating Test Case
+Create Issue
+Choose Project
+Issue type - Test
+Summary - Test case details
+Attach any file
+Component - Team 1
+Description of the test
+Labels - Automation or Manual
+Priority
+Epic Link
+Sprint - which sprint
+
+Click on the created Test Case
+Different field of options will appear
+
+Test Details
+Add test step
+Sequence of steps couples with conditions, test inputs and expected result
+3 sections 
+Action
+Data (test data)
+Expected result
+
+Preconditions
+Create Test precondition
+Select “Existing Precondition” or “New Precondition”
+Provide all the required details
+ex. URL where the user need to navigate first
+Test Sets
+Used to organize and group tests. Bring all tests related to the module in one folder.
+Select “Existing test set” or “New test set”
+New test set > Issue type > 
+
+Test Plans
+Prioritize the test cases which are going to be tested for the release.
+Include the prioritized test cases in the Test Plan
+This will allow all the team members to view what are the tests to be executed in this release.   
+
+Test Execution
+Execute tests that are included in Test Plans
+Assignee - select member from the team who will execute the tests..
+Fix Version - release date/sprint number
+Test Environment
+Mark PASS, EXECUTING or FAIL
+
+
+
